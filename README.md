@@ -23,7 +23,7 @@
 ![users](images/users.png)
 
 ## Установка
-Перед установкой PVAdmin установите gtsAPI (getTables и pdoTools, если они не установлены) и Login. Необходимо настроить ЧПУ MODX.
+Перед установкой PVAdmin установите gtsAPI (getTables и pdoTools, если они не установлены) и Login. Необходимо настроить ЧПУ MODX. Включить Использовать Fenom на страницах.
 Установите пакет [pvadmin-1.0.0-beta.transport.zip](https://github.com/tuniekov/PVAdmin/releases/download/new/pvadmin-1.0.0-beta.transport.zip) из репозитория пакета [PVAdmin](https://github.com/tuniekov/PVAdmin/).
 
 # Важно
