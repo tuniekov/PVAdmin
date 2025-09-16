@@ -6,7 +6,7 @@ export default {
                 table:'modResourceTree', //Название таблицы
                 class:'modResource', //Класс MODX таблицы базы данных. Если совпадает с table писать не обязательно.
                 autocomplete_field:'pagetitle', //Если задано то при определении полей таблицы автоматически узнает поле autocomplect
-                version:10, // при изменении в файле надо обновлять версию, чтобы изменения применились при установке.
+                version:11, // при изменении в файле надо обновлять версию, чтобы изменения применились при установке.
                 type: 3, //тип таблицы: 1 - таблица PVTables, 2 - таблица JSON, 3 - дерево UniTree
                 authenticated:true, //доступ к таблице только аутентифицированным пользователям
                 groups:'', //Можно определить группы пользователей которые будут иметь доступ к таблицам.
@@ -88,6 +88,7 @@ export default {
                     parentIdField: 'parent',
                     // parents_idsField: 'parents_ids', //не надо для modResource
                     menuindexField: 'menuindex',
+                    isLeafEmptyChild: 1,
                     classField: 'class_key',
                     titleField: 'pagetitle',
                     fields: {

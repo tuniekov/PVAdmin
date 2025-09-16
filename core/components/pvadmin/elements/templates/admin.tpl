@@ -61,7 +61,7 @@
                                     <a class=\"nav-link dropdown-toggle\" href=\"{$link}\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">
                                         <i class=\"bi bi-arrow-right-circle\"></i> {$menutitle}
                                     </a>
-                                    <ul class=\"dropdown-menu\">{$children}</ul>
+                                    <ul class=\"dropdown-menu\">{$wrapper}</ul>
                                 </div>" : 
                                 "<a class=\"nav-link\" href=\"{$link}\">
                                     <i class=\"bi bi-arrow-right-circle\"></i> {$menutitle}
