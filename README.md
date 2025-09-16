@@ -24,7 +24,7 @@
 
 ## Установка
 Перед установкой PVAdmin установите gtsAPI (getTables и pdoTools, если они не установлены) и Login. Необходимо настроить ЧПУ MODX. Включить Использовать Fenom на страницах.
-Установите пакет [pvadmin-1.0.0-beta.transport.zip](https://github.com/tuniekov/PVAdmin/releases/download/new/pvadmin-1.0.0-beta.transport.zip) из репозитория пакета [PVAdmin](https://github.com/tuniekov/PVAdmin/).
+Установите пакет [pvadmin-1.0.1-beta.transport.zip](https://github.com/tuniekov/PVAdmin/releases/download/1.0.1/pvadmin-1.0.1-beta.transport.zip) из репозитория пакета [PVAdmin](https://github.com/tuniekov/PVAdmin/).
 
 # Важно
 gtsAPI работает на MODX 2.8, MySQL 5.7 или последней версии MariaDB, PHP 7.4. На остальных конфигурациях работа не тестировалась.
